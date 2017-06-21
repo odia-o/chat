@@ -1,5 +1,5 @@
 {
-  "name": "stb-mean",
+  "name": "chat",
   "version": "1.0.0",
   "description": "* Express * MongoDB",
   "main": "index.js",
@@ -7,10 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "gulp watch --gulpfile client/gulpfile.babel.js"
   },
-  "author": "Carlos Souza <carloshrsouza@gmail.com> (http://csouza.me/)",
-  "license": "ISC",
+  "author": "Odia Oghenevwede <odiaoghenevwede@gmail.com>",
   "dependencies": {
-    "angular": "^1.6.4"
+    "angular": "^1.6.4",
+    "express": "^4.15.3",
+    "mongodb": "^2.2.29"
   },
   "devDependencies": {
     "babel-core": "^6.2.1",

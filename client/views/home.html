@@ -1,0 +1,19 @@
+<div>
+    <ul>
+        <li ng-repeat="contact in homeCtrl.t.contacts"><a ui-sref="home.contact({contactName: contact})">{{contact}}</a></li>
+    </ul>
+</div>
+
+<div>
+    <ul>
+        <li ng-repeat="group in homeCtrl.t.groups">{{group.name}}
+            <div>members : 
+                <ul>
+                    <li ng-repeat="member in group.members">{{member}}</li>
+            </ul>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<div ui-view></div>

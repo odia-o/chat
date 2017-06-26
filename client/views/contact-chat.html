@@ -1,0 +1,17 @@
+<div>
+    <p ng-repeat="mes in contactCtrl.messages">
+        {{mes.name}} said: {{mes.msg}}
+    </p>
+</div>
+{{message}}
+<form>
+    <input type="text" id="msg" ng-model="message">
+    <input type="submit" value="send">
+</form>
+
+<script type="text/javascript">
+        $("form").submit((e)=> {
+           var t = $("#msg").val();
+            console.log(t);
+        });
+    </script>

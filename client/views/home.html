@@ -1,18 +1,12 @@
-<div>
+<div><h3>contacts</h3>
     <ul>
-        <li ng-repeat="contact in homeCtrl.t.contacts"><a ui-sref="home.contact({contactName: contact})">{{contact}}</a></li>
+        <li ng-repeat="contact in homeCtrl.t.contactsNames"><a ui-sref="home.contact({contactName: contact})">{{contact}}</a></li>
     </ul>
 </div>
 
-<div>
+<div><h3>groups</h3>
     <ul>
-        <li ng-repeat="group in homeCtrl.t.groups">{{group.name}}
-            <div>members : 
-                <ul>
-                    <li ng-repeat="member in group.members">{{member}}</li>
-            </ul>
-            </div>
-        </li>
+        <li ng-repeat="group in homeCtrl.t.groupsNames"><a ui-sref="home.group({groupName: group})">{{group}}</a></li>
     </ul>
 </div>
 

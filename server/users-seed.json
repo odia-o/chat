@@ -1,0 +1,22 @@
+[
+    {
+        name: "larry",
+        contacts: [
+            'kemi',
+            'jide'
+        ],
+        groups: [
+            'noiseMakers'
+        ]
+    },
+    {
+        name: "bola",
+        contacts: [
+            'ola',
+            'taiwo'
+        ],
+        groups: [
+            'noiseMakers'
+        ]
+    }
+]

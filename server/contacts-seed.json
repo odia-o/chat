@@ -1,0 +1,15 @@
+[
+    {
+        name: "kemi",
+        messages: [
+            {
+                contactName: 'kemi',
+                message: 'oshey'
+            },
+            {
+                contactName: 'tunde',
+                message: 'naso'
+            }
+        ]
+    }
+]

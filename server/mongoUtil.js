@@ -21,5 +21,8 @@ module.exports = {
     },
     groups() {
         return _db.collection('groups');
+    },
+    users() {
+        return _db.collection('users');
     }
 }

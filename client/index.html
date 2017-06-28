@@ -8,7 +8,23 @@
 </head>
 
 <body>
+<script type="text/javascript">
+    $(document).ready(()=>{
+    var t = prompt("login");   
+   var httpRequest = new XMLHttpRequest();
 
+    if (!httpRequest) {
+      alert('Giving up :( Cannot create an XMLHTTP instance');
+      return false;
+    }
+   // httpRequest.onreadystatechange = alertContents;
+    httpRequest.open('POST', "/");
+    httpRequest.setRequestHeader('Content-Type', 'application/json');
+    httpRequest.send(JSON.stringify({username: t}));
+  
+    });
+   
+</script>
 <div ui-view></div>
 
     
